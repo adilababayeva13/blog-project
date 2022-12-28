@@ -1,0 +1,10 @@
+@import '../../assets/utils/index.scss';
+
+.footer {
+  text-align: center;
+  padding: 24px 0;
+  border-top: 1px solid $accent-color-dark;
+  color: $accent-color-light;
+  @include flexContainer(column, center, center);
+  font-weight: 500;
+}

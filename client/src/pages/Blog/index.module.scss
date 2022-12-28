@@ -1,0 +1,29 @@
+@import '../../assets/utils/index.scss';
+
+.blog {
+  width: 100%;
+  padding: 24px 0;
+  @include flexContainer(column, flex-start, flex-start);
+  gap: 24px;
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: $accent-color-dark;
+  }
+  p {
+    font-size: 18px;
+    color: $accent-color-light;
+    opacity: 0.8;
+  }
+  span {
+    font-size: 18px;
+    color: $accent-color-light;
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,30 @@
+.blog {
+  width: 100%;
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+}
+.blog img {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+}
+.blog h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffe9b1;
+}
+.blog p {
+  font-size: 18px;
+  color: #fcfdf2;
+  opacity: 0.8;
+}
+.blog span {
+  font-size: 18px;
+  color: #fcfdf2;
+  opacity: 0.8;
+}

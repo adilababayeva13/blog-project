@@ -1,0 +1,67 @@
+.add {
+  width: 100%;
+  height: 100%;
+  padding: 32px 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.add h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #ffe9b1;
+  width: 100%;
+  text-align: center;
+}
+.add > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.add > div img {
+  width: 178px;
+  height: 178px;
+  object-fit: cover;
+  filter: brightness(0.5);
+  cursor: pointer;
+}
+.add > div .active {
+  transition: none;
+  filter: brightness(1);
+  border: 4px solid #ffe9b1;
+}
+.add input {
+  width: 100%;
+  height: 48px;
+  padding: 16px;
+  border: 2px solid #7743db;
+  border-radius: 8px;
+  outline: none;
+}
+.add input:focus {
+  border: 2px solid #ffe9b1;
+}
+.add textarea {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  height: max-content;
+  padding: 16px;
+  border: 2px solid #7743db;
+  border-radius: 8px;
+  outline: none;
+}
+.add textarea:focus {
+  border: 2px solid #ffe9b1;
+}
+.add button {
+  border-radius: 8px;
+  width: 100%;
+}

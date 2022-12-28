@@ -1,0 +1,71 @@
+.navbar {
+  border-bottom: 1px solid #ffe9b1;
+}
+.navbar > a:first-child {
+  width: max-content;
+  height: 80px;
+  display: block;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-weight: bold;
+  font-size: 32px;
+  color: #fcfdf2;
+}
+.navbar > a:first-child svg {
+  width: auto;
+  height: 100%;
+}
+.navbar > div {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar > div > div {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: #fcfdf2;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar > div > div > p {
+  text-transform: uppercase;
+}
+.navbar > div > div > span:hover {
+  cursor: pointer;
+  color: #ffe9b1;
+}
+.navbar > div nav {
+  width: max-content;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar > div nav a {
+  color: #fcfdf2;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+.navbar > div nav a:hover {
+  color: #ffe9b1;
+}

@@ -1,0 +1,56 @@
+@import '../../assets/utils/index.scss';
+
+.navbar {
+  border-bottom: 1px solid $accent-color-dark;
+  & > a {
+    &:first-child {
+      width: max-content;
+      height: 80px;
+      display: block;
+      @include flexWithGap(row, 16px, center);
+      font-weight: bold;
+      font-size: 32px;
+      color: $accent-color-light;
+      svg {
+        width: auto;
+        height: 100%;
+      }
+    }
+  }
+  & > div {
+    width: max-content;
+    height: max-content;
+    @include flexWithGap(row, 16px, center);
+    & > div {
+      width: max-content;
+      height: max-content;
+      @include flexWithGap(row, 16px, center);
+      color: $accent-color-light;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+
+      & > p {
+        text-transform: uppercase;
+      }
+      & > span:hover {
+        cursor: pointer;
+        color: $accent-color-dark;
+      }
+    }
+    nav {
+      width: max-content;
+      height: max-content;
+      @include flexWithGap(row, 16px, center);
+      a {
+        color: $accent-color-light;
+        text-decoration: none;
+        font-size: 16px;
+        font-weight: bold;
+        &:hover {
+          color: $accent-color-dark;
+        }
+      }
+    }
+  }
+}

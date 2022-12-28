@@ -1,0 +1,22 @@
+// variables
+$primary-color: #3b3486;
+$secondary-color: #7743db;
+$accent-color-dark: #ffe9b1;
+$accent-color-light: #fcfdf2;
+$color-text-primary: #33363f;
+
+// mixins
+@mixin flexContainer($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+@mixin flexWithGap($direction, $gap, $align) {
+  display: flex;
+  flex-direction: $direction;
+  align-items: $align;
+  gap: $gap;
+  justify-content: center;
+  flex-wrap: wrap;
+}
